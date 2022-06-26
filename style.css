@@ -1,0 +1,103 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+.full{
+    
+    background-color: rgb(240,242,245);
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.cs-font{
+    font-size: 1.97rem;
+}
+
+.box{
+    background-color: #fff;
+    box-shadow: 5px 5px 20px;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 10px;
+
+}
+
+input{
+    width: 100%;
+    padding:20px ;
+    border-radius: 10px;
+    outline: black;
+    font-size:1.5rem ;
+    
+
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+
+.hover-effect :hover{
+    text-decoration: overline;
+}
+
+.custom-btn{
+    width: 100%;
+    margin-top: 10px;
+    color: white;
+    padding:15px ;
+    font-weight: bold;
+    background-color: rgb(24,119,242);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    margin-bottom: 3px;
+}
+
+.cs-span{
+         color: rgb(24,119,242);
+         cursor: pointer;
+         padding: 2px;
+        
+}
+
+.btn-cs{
+    background-color: rgb(66,183,42);
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+@media only screen and (min-width:769px) {
+    .border-cs{
+        border: 2px solid red;
+    }
+
+    .comp-responsive{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .no-margin{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    
+
+}
+
+
+
+
